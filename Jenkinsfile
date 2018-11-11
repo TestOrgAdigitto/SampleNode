@@ -7,7 +7,7 @@ node{
 		}
 
 		stage ('Build Image'){
-			app = docker.build("getintodevops/hellonode") 
+			app = docker.build("adiklkrni/node") 
 		}
 
 		stage ('Push Image')
